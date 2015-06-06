@@ -64,7 +64,6 @@ clean_species <- function(sp) {
   sp_split <- gsub("divaricarpa", "divericarpa", sp_split)
   sp_split <- gsub("Tifolium", "Trifolium", sp_split)
   sp_split <- gsub("Trifollium", "Trifolium", sp_split)
-  
   sp_split <- gsub("\\s{2,}", " ", sp_split)
   sp_split <- gsub("spp$", "spp.", sp_split)
   sp_split <- gsub("aqautic|aquatic", "", sp_split)
